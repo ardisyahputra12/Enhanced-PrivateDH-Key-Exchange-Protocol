@@ -39,3 +39,17 @@ Execution order:
 `Server` > `Attacker` > `Responder` > `Initiator`
 
 ---
+
+## 📖 Documentations
+
+### Session 1 shared secret key result
+
+![Step 1](/src/testing/scenario_01/docs/s1_pic1.png)
+
+### Session 2 shared secret key result
+
+![Step 2](/src/testing/scenario_01/docs/s1_pic2.png)
+
+### New shared key regeneration results
+
+![Step 3](/src/testing/scenario_01/docs/s1_pic3.png)

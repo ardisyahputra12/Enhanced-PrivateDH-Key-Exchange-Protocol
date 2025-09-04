@@ -40,3 +40,17 @@ Execution order:
 `Server` > `Attacker` > `Responder` > `Initiator`
 
 ---
+
+## 📖 Documentations
+
+### User A is sending the encrypted initial secret key
+
+![Step 1](/src/testing/scenario_03/docs/s3_pic1.png)
+
+### The attacker modifies the random secret key
+
+![Step 2](/src/testing/scenario_03/docs/s3_pic2.png)
+
+### The modified random secret key was successfully received by user B without authentication
+
+![Step 3](/src/testing/scenario_03/docs/s3_pic3.png)

@@ -36,3 +36,21 @@ Execution order:
 `Server` > `Attacker` > `Responder` > `Initiator`
 
 ---
+
+## 📖 Documentations
+
+### Session 1 shared secret key result
+
+![Step 1](/src/testing/scenario_06/docs/s6_pic1.png)
+
+### Session 2 shared secret key result
+
+![Step 2](/src/testing/scenario_06/docs/s6_pic2.png)
+
+### The attacker replays User A’s previously sent ECDHE public key ciphertext to User B in a later session, unchanged
+
+![Step 3](/src/testing/scenario_06/docs/s6_pic3.png)
+
+### Repeated message rejected, user B failed to decrypt
+
+![Step 3](/src/testing/scenario_06/docs/s6_pic4.png)

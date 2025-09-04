@@ -42,3 +42,17 @@ Execution order:
 `Server` > `Attacker` > `Responder` > `Initiator`
 
 ---
+
+## 📖 Documentations
+
+### User B is sending an encrypted ECDHE public key
+
+![Step 1](/src/testing/scenario_05/docs/s5_pic1.png)
+
+### The attacker modifies the ECDHE public key
+
+![Step 2](/src/testing/scenario_05/docs/s5_pic2.png)
+
+### Signature Verification Failed by User A
+
+![Step 3](/src/testing/scenario_05/docs/s5_pic3.png)

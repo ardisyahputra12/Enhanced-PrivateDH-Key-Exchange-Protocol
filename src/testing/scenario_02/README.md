@@ -44,3 +44,17 @@ Execution order:
 `Server` > `Attacker` > `Responder` > `Initiator`
 
 ---
+
+## 📖 Documentations
+
+### User A is sending the encrypted initial secret key
+
+![Step 1](/src/testing/scenario_02/docs/s2_pic1.png)
+
+### The attacker modifies the random secret key
+
+![Step 2](/src/testing/scenario_02/docs/s2_pic2.png)
+
+### Signature Verification Failed by User B
+
+![Step 3](/src/testing/scenario_02/docs/s2_pic3.png)

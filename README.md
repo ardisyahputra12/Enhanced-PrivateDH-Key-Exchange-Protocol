@@ -48,9 +48,9 @@ Start Client:
     python src/main.py
 
 Input client username: 
-- Client A as **initiator**
-- Client B as **responder**
-- Client C as **attacker**
+- A as **initiator**
+- B as **responder**
+- C as **attacker**
 
 Execution order:
 
@@ -67,27 +67,11 @@ Attack simulations are included to verify resilience against common threats:
 
 - [Compromise of the Main ECDHE Private Key](/src/testing/scenario_01)
 
-    `python src/testing/scenario_01/main.py`
-
 - [MITM Attack with Random Secret Key Modification](/src/testing/scenario_02)
-
-    `python src/testing/scenario_02/main.py`
-
 - [MITM Attack Without Authentication](/src/testing/scenario_03)
-
-    `python src/testing/scenario_03/main.py`
-
 - [MITM Attack with Signature Modification](/src/testing/scenario_04)
-
-    `python src/testing/scenario_04/main.py`
-
 - [MITM Attack with Modification of the ECDHE Public Key](/src/testing/scenario_05)
-
-    `python src/testing/scenario_05/main.py`
-
 - [Replay Attack](/src/testing/scenario_06)
-
-    `python src/testing/scenario_06/main.py`
 
 ---
 

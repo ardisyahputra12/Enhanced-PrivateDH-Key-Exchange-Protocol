@@ -1,0 +1,7 @@
+cryptography
+Flask
+Flask-SocketIO
+psutil
+requests
+socketio
+websocket-client

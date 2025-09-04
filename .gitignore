@@ -1,0 +1,6 @@
+*.pem
+*md
+
+venv/
+__pycache__/
+testing/
